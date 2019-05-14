@@ -32,7 +32,7 @@ def check_result(board):
 
 def isvalid_move(board,index):
 	"""
-	Function to check invalid player inputs
+	Function to check invalid player inputs.
 	"""
 	if index<1 or index>9:
 		return False
